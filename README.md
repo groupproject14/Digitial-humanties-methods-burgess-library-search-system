@@ -7,7 +7,12 @@ This project is a semantic search application for books using Streamlit, Ollama,
 Technologies:
 Python, Streamlit, ChromaDB, Ollama
 
-Setup:
+INSTRUCTIONS FOR USE: 
+
+Download app10.py
+
+Then, on Bash
+
 Install dependencies:
 pip install streamlit chromadb ollama
 
@@ -17,14 +22,14 @@ ollama pull nomic-embed-text
 Run the app:
 streamlit run app10.py
 
-Usage
+Use:
 Enter a search query to retrieve similar books from the dataset.
 
 Notes
-Requires Ollama running locally. Dataset is loaded from a JSON file.
+Requires Ollama running locally.
 
 Documents in the repository:
 - LLM Search system raw code! - This is my first code version, it works in JupyterLab but does not include the user-friendly app function
-- app10.py is the code including the app
+- app10.py is the final code including the app
 - booksample.json is my 100-book sample dataset that the code has been tested on
-- Complete_Dataset_Burgess_Library is a larger dataset from Southampton libraries containing 3619 books. It could be used to develop the project.
+- Complete_Dataset_Burgess_Library is a larger dataset from Southampton libraries containing 3619 books. It could be used to develop the project further.
